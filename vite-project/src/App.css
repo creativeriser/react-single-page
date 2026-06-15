@@ -1,0 +1,44 @@
+/* I have used Universal Selector here */
+* {
+  margin: 0;         
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app-container {
+  font-family: Arial, sans-serif;
+  min-height: 100vh; 
+  display: flex;
+  flex-direction: column; /* components vertically aligned them */
+}
+
+.navbar {
+  background-color: #282c34;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.hero {
+  background-color: #e0e7ff; /* color given here */
+  padding: 80px 20px;
+  text-align: center;
+  color: #333;
+}
+
+.home-content {
+  padding: 40px 20px;
+  text-align: center;
+  flex-grow: 1; 
+  background-color: #f9f9f9; 
+}
+
+.footer {
+  background-color: #282c34; 
+  color: white;
+  padding: 15px 20px;
+  text-align: center;
+  font-size: 0.9rem;
+}
