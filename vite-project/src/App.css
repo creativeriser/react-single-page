@@ -42,3 +42,38 @@
   text-align: center;
   font-size: 0.9rem;
 }
+/* Add this to the bottom of your existing App.css */
+
+.task-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px 20px;
+  background-color: #f0f0f0;
+}
+
+.task-card {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  width: 250px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.form-card {
+  width: 350px; /* Make the form card slightly wider */
+}
+
+.task-card input {
+  margin: 10px 0;
+  padding: 5px;
+}
+
+.task-card button {
+  margin: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
