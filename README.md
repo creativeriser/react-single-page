@@ -1,6 +1,6 @@
 # React Single Page Layout
 
-🚀 **[View Live Demo on Vercel]([https://react-single-page-alpha.vercel.app/])**
+🚀 **[View Live Demo on Vercel](https://react-single-page-alpha.vercel.app/)**
 
 ## About The Project
 This project is a foundational React application built as a faculty task for the Full Stack Development Bootcamp. It demonstrates how to structure a basic web page using React components and Vite. 
